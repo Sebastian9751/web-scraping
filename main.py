@@ -1,13 +1,14 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-
+from src.router.motorcycle import motorcycle
 
 app = FastAPI(
     title="MY-API",
     description="This API is awesome.",
 )
 
-#app.include_router(gg)
+#Routes
+app.include_router(motorcycle)
 
 
 origins = ["*"]
@@ -23,4 +24,8 @@ app.add_middleware(
 
 @app.get("/")
 def helloworld():
+    
+    
+    
+    
     return "Hello world"
