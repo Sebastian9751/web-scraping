@@ -1,0 +1,9 @@
+/env/
+__pycache__/
+selenium/
+*.py[cod]
+.env
+.vscode
+
+
+
