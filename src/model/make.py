@@ -5,13 +5,10 @@ from sqlalchemy import (
     Integer,
     DateTime,
     String,
-   
     Text,
-    func,
-    text,
+    func
 )
 from src.db.config import meta, conn
-
 
 
 makes = Table(
@@ -22,7 +19,6 @@ makes = Table(
     Column("img_url", Text(), nullable=False),
     Column("date", DateTime(), nullable=False, server_default=func.now())
 )
-
 
 
 meta.create_all(conn)

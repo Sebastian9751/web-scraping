@@ -7,10 +7,10 @@ app = FastAPI(
     description="This API is awesome.",
 )
 
-#Routes
+# Routes
 app.include_router(motorcycle)
 
-
+# Cors
 origins = ["*"]
 
 app.add_middleware(
@@ -24,8 +24,5 @@ app.add_middleware(
 
 @app.get("/")
 def helloworld():
-    
-    
-    
-    
+
     return "Hello world"
