@@ -34,7 +34,7 @@ $ pip install -r requirements.txt
 #### Execute the following command to create a Docker container for SQL server:
 
 ```bash
-# This will create a Docker container for the PostgreSQL server.
+# This will create a Docker container for the PostgreSQL.
 
 $ docker-compose up
 ```
@@ -50,8 +50,6 @@ $ uvicorn main:app
 ```
 
 ## Swagger
-
-#### Swagger is a tool used for API documentation and testing
 
 #### Once the application is running, you can access Swagger at the following URL:
 
