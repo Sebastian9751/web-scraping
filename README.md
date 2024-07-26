@@ -1,5 +1,6 @@
-# Web scraping API with Selenium and PostgreSQL.
+# Web scraping API using Selenium and PostgreSQL.
 
+![image-removebg-preview](https://github.com/user-attachments/assets/ff9375c2-7823-4ac0-8a68-d53a23b8fee9)
 
 
 
